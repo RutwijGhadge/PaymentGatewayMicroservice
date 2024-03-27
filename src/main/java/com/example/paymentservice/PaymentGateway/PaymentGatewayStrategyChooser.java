@@ -23,8 +23,8 @@ public class PaymentGatewayStrategyChooser {
         int randomNumber=r.nextInt(arr.length);
         String s=arr[randomNumber];
         //if(s.equals("stripePaymentGateway"))
-            return stripePaymentGateway;
+            return razorpayPaymentGateway;
 
-       // return razorpayPaymentGateway;
+       // return stripePaymentGateway;
     }
 }
